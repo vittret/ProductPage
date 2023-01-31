@@ -1,25 +1,5 @@
 'use strict';
-/*
- twinPrice = 139.99;
-const queenPrice = 159.99;
-const kingPrice = 179.99;
 
-
-const sizeTwin = document.getElementById('twin');
-const sizeQueen = document.getElementById('queen');
-const sizeKing  = document.getElementById('king');
-
-const oldPrice = document.getElementById('price-old');
-const newPrice = document.getElementById('price-new');
-
-
-duvetSize.addEventListener('click', function() {
-    if (duvetSize === sizeTwin) {
-        const oldPrice = queenPrice; 
-    }
-})
-
-*/
 
 
 var itemPrices = {
@@ -64,6 +44,7 @@ var discountPrice = {
 
 
       /* Mobile version*/
+
       const imagesM = ['images/dct1-mobile.jpg', 'images/dct2-mobile.jpg', 'images/dct3-mobile.jpg'];
       let currentMobileImageIndex = 0;
 
