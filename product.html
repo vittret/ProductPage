@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css"
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <section class="box">
+        <div class="left gallery">
+            <div class="image desktop">
+                <img class="image desktop" src="images/duvet-covet-turquoise.jpeg" id="currentImage">
+                
+                <span class="leftPointe" onclick="plusSlides(-1)">&#10094;</span>
+                <span class="rightPointe" onclick="plusSlides(1)">&#10095;</span>
+            </div>
+            <div class="image mobile">
+                <img class="image mobile" src="images/dct1-mobile.jpg" id="currentImageM">
+                <span class="leftPointe" onclick="plusSlidesM(-1)">&#10094;</span>
+                <span class="rightPointe" onclick="plusSlidesM(1)">&#10095;</span>
+                
+             
+            </div>
+        </div>
+        <div class="right">
+            <h3 class="product">Turquoise</h3>
+            <h1 class="name"> Eucalyptus Lyocell Duvet Cover Set</h1>
+            <p class="description">Our sustainable and soft eucalyptus duvet cover is like silk but better. Our duvet cover set includes a duvet cover and two pillowcases. All our eucalyptus bedding products are created sustainably and Oeko-Tex certified, meaning there are no harmful chemicals used and that all components meet strict requirements.</p>
+           
+            <div class ="priceit">
+              
+                <div id ="priceNew">$119.99 </div>
+                <div id ="priceOld"> $159.99</div>
+                <select id="duvetSize">
+                    <option value="twin">Twin</option>
+                    <option value="queen">Queen</option>
+                    <option value="king">King</option>
+                   </select>
+            </div>
+            <br>
+            <div class="btn">
+                 <button type="submit">Add to cart </button>
+            </div>    
+            
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
+

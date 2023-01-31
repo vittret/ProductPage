@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(68, 52, 44);
+}
+
+
+h1 {
+  font-size: 2vw;
+  font-family: 'Fraunces', sans-serif;
+}
+
+p {
+  color: hsl(150, 5%, 66%);
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.box {
+  background-color: rgb(240, 237, 235);
+  display: flex;
+  width: 50%;
+  margin: 150px auto;
+  border-radius: 10px;
+  block-size: fit-content;
+}
+
+
+
+.right {
+  float: right;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;    
+  width: fit-content;
+  block-size: fit-content;
+  
+}
+
+.product {
+  padding-top: 10%;
+  color: hsl(150, 5%, 66%);
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2rem;
+  width: auto;
+  position: relative;
+ 
+}
+
+.btn button {
+  background-color: hsl(22, 18%, 49%);
+  color: rgb(0, 0, 0);
+  padding: 0.5vw ;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2vw;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+button:hover {
+  background: hsl(23, 16%, 20%);
+  text-decoration: none;
+  color: white;
+}
+
+.priceit {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 5%
+}
+
+#priceNew {
+    
+  font-size: 2vw;
+  font-weight: bold;
+  color: hsl(0, 14%, 28%);
+  font-family: 'Fraunces', sans-serif;
+  float: left;
+}
+
+#priceOld {
+  font-size: 1vw;
+  color: hsl(140, 2%, 53%);
+  padding: 15px 0px 0px 20px;
+  text-decoration: line-through;
+  float: left;
+}
+
+
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 200,
+'GRAD' -25,
+'opsz' 20
+}
+
+#duvetSize {
+  display: flex;
+  float:right;
+  padding: 1%;
+  font-size:1vw;
+  margin: 12px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(145, 119, 119);
+}
+
+/*Gallery*/
+.image .desktop {
+  width: 60vw;
+  max-width: 100%;
+
+  display: block;
+   
+}
+
+.image.mobile {
+   display: none;
+ }
+
+
+.left.gallery {
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden; 
+}
+
+.leftPointe, .rightPointe {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.leftPointe {
+  left: 0;
+}
+
+.rightPointe {
+  right: 0;
+}
+
+/* Mobile version */
+
+
+@media(max-width:750px) {
+  .box{
+      display: block;
+      width: auto;
+      background-color: rgb(240, 237, 235);
+      border-radius: 10px 10px 0px 0px;
+      block-size: fit-content;
+  }
+  .right {
+    background-color: rgb(240, 237, 235);
+    padding: 0% 10% 10% 10%;
+  }
+  .image.desktop{
+    display: none;
+  }
+  .image.mobile{
+    display: block;
+    
+    width: 97vw;
+    position: relative;
+    block-size: fit-content;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: fill;
+  }
+  .left.gallery {
+    position: relative;
+    display: flex;
+    border-radius: 0;
+  }
+
+  #duvetSize {
+    font-size: 3.5vw;
+  }
+
+  .right h1 {
+    font-size: 8vw;
+  }
+  .right p {
+    font-size: 4vw;
+  }
+  .priceit #priceNew {
+    font-size: 6vw;
+  }
+  .priceit #priceOld {
+    font-size: 3vw;
+  }
+  .btn button {
+    font-size: 3vw;
+    padding: 1vw ;
+  }
+  .product {
+    padding-top: 0px;
+    font-size: 3vw;
+  }
+}
