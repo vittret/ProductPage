@@ -25,7 +25,7 @@ var discountPrice = {
   });
 
 
-  const images = ['images/duvet-covet-turquoise.jpeg', 'images/dct2.jpg', 'images/dct3.jpg'];
+  const images = ['Images/duvet-covet-turquoise.jpeg', 'Images/dct2.jpg', 'Images/dct3.jpg'];
       let currentImageIndex = 0;
 
       function plusSlides(n) {
@@ -45,7 +45,7 @@ var discountPrice = {
 
       /* Mobile version*/
 
-      const imagesM = ['images/dct1-mobile.jpg', 'images/dct2-mobile.jpg', 'images/dct3-mobile.jpg'];
+      const imagesM = ['Images/dct1-mobile.jpg', 'Images/dct2-mobile.jpg', 'Images/dct3-mobile.jpg'];
       let currentMobileImageIndex = 0;
 
       function plusSlidesM(n) {
