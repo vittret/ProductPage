@@ -138,16 +138,16 @@ font-variation-settings:
 .leftPointe, .rightPointe {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  color: rgb(53, 47, 47);
   cursor: pointer;
 }
 
 .leftPointe {
-  left: 0;
+  left: 10px;
 }
 
 .rightPointe {
-  right: 0;
+  right: 10px;
 }
 
 /* Mobile version */
